@@ -1,0 +1,48 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+.cover{
+    background-image: url('pexels-francesco-ungaro-2835436.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+   
+}
+h1{
+    font-size: 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    color:#0c7aab;
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+h2{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+    color:white;
+}
+@keyframes head {
+    0%{
+        color:red;
+    }
+    25%{
+        color:yellow;
+    }
+    50%{
+        color:black;
+    }
+    75%{
+
+        color:purple;
+    }
+    100%{
+        color:#0c7aab;
+    }
+}
